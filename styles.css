@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Mondwest'; /* Choose a name for your font */
+  src: url('fonts/PPMondwest-Regular.otf') format('opentype'),; /* Adjust the paths as necessary */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Controls font loading behavior */
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+body {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+nav {
+    width: 100%;
+    position: sticky;
+    top: 5%;
+    bottom: auto;
+    z-index: 100;
+}
+
+.logo {
+    float: left;
+    height: 0%;
+}
+
+.logo-icon {
+    height: 0%;
+}
+
+.navlinks {
+    display: flex;
+    float: right;
+    list-style-type: none;    
+}
+
+li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Mondwest', serif;
+    font-size: 1.5rem;
+}
+
+.hero {
+    position: relative;
+    height: 90vh;
+}
+
+.dots {
+    height: 10px;
+    float: right;
+}
+
+.hero-text {
+    font-family: 'Mondwest', serif;
+    font-size: 8vw;
+    line-height: auto;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.hero-text-white {
+    font-family: 'Mondwest', serif;
+    font-size: 8vw;
+    color: white;
+    line-height: auto;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.project-frame {
+    background-color: white;
+    border-width: 15px;
+    border-color: black;
+    border-style: solid;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
+    box-shadow: 15px 15px black;
+    display: inline-block;
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: auto;
+    bottom: auto;
+}
+
+.project-frame-black {
+    background-color: black;
+    border-width: 15px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 15px 15px black;
+    z-index: 2;
+    display: inline-block;
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: 3vw;
+    bottom: 7%;
+}
+
+.xbox {
+    background-color: white;
+    padding: 20px;
+}
+
+.divheader-black {
+    position: relative;
+}
+
+.bars {
+    height: 5vh;
+    width: 100%;
+    z-index: 3;
+}
